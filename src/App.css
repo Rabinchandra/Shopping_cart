@@ -1,0 +1,38 @@
+#shopping-icon,
+#upload-icon {
+  font-size: 2.5em;
+  cursor: pointer;
+}
+
+.body__category-list li {
+  cursor: pointer;
+}
+
+.back-button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.body__upload-product {
+  max-width: 700px !important;
+}
+
+.products-list {
+  display: grid;
+  grid-template-columns: repeat(3, 2fr);
+  grid-gap: 2em;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .cart-container {
+    flex-direction: column;
+  }
+  .checkout {
+    margin-top: 100px;
+  }
+
+  .cart-list {
+    width: 100% !important;
+  }
+}
