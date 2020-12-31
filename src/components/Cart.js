@@ -50,10 +50,10 @@ function Cart() {
               <h4 className='mb-4'>The total amount of</h4>
               <div className='d-flex justify-content-between bd-lead'>
                 <div>Amount</div>
-                <div>$100</div>
+                <div>${totalAmount}</div>
               </div>
               <div className='d-flex justify-content-between bd-lead'>
-                <div>${totalAmount}</div>
+                <div>Discount</div>
                 <div>$0</div>
               </div>
               <hr />
